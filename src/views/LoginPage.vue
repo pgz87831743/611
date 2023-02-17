@@ -26,20 +26,34 @@ export default {
       ruleForm: {
         username: '',
         password: '',
-        verifyCode: ''
       },
     }
   },
   components: {},
   methods: {
     submitForm() {
-      this.$http.post('register',this.ruleForm)
+      this.$http.post('login',this.ruleForm)
           .then(resp=>{
-            this.$message({
-              message: resp.data.data,
-              showClose: true,
-              type: 'success'
-            });
+
+            if (resp.data.code!==0){
+
+              this.$message({
+                message: resp.data.msg,
+                showClose: true,
+                type: 'error'
+              });
+            }else{
+              this.$message({
+                message: resp.data.msg,
+                showClose: true,
+                type: 'success',
+                onClose:()=>{
+                  this.$router.push({path:'MusicItem'})
+                }
+              })
+            }
+
+
           })
     },
     sendVerifyCode(){

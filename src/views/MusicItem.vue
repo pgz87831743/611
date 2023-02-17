@@ -34,6 +34,9 @@
           prop="cover"
           label="cover"
       >
+        <template v-slot="scope">
+          <img :src="scope.row.cover" alt="" width="90" height="90">
+        </template>
       </el-table-column>
       <el-table-column
           align="center"

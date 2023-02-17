@@ -6,11 +6,7 @@
         :data="tableData"
         border
         style="width: 100%">
-      <el-table-column
-          align="center"
-          prop="id"
-          label="id">
-      </el-table-column>
+
       <el-table-column
           align="center"
           prop="name"
@@ -35,7 +31,11 @@
           label="cover"
       >
         <template v-slot="scope">
-          <img :src="scope.row.cover" alt="" width="90" height="90">
+          <el-image
+              style="width: 100px; height: 100px"
+              :src="scope.row.cover"
+              :preview-src-list="[scope.row.cover]">
+          </el-image>
         </template>
       </el-table-column>
       <el-table-column
@@ -46,8 +46,8 @@
       </el-table-column>
       <el-table-column
           align="center"
-          prop="filter"
-          label="filter"
+          prop="file"
+          label="file"
       >
       </el-table-column>
       <el-table-column
@@ -55,6 +55,11 @@
           prop="createdAt"
           label="createdAt"
       >
+      </el-table-column>
+      <el-table-column>
+        <template v-slot="scope">
+          <el-button @click="playMusic($event,scope.row)">播放</el-button>
+        </template>
       </el-table-column>
 
     </el-table>
@@ -85,19 +90,20 @@ export default {
     },
 
     playMusic(target, row) {
+      console.log(target)
       if (row.player) {
         if (row.player.paused) {
           row.player.play();
-          target.target.setAttribute('class', 'el-icon-loading')
+          target.target.innerText='暂停'
         } else {
           row.player.pause();
-          target.target.setAttribute('class', 'el-icon-video-play')
+          target.target.innerText='播放'
         }
       } else {
-        let player = new Audio(row.url);
+        let player = new Audio(row.file);
         player.play(); //播放 mp3这个音频对象
         row.player = player;
-        target.target.setAttribute('class', 'el-icon-loading')
+        target.target.innerText='暂停'
       }
 
     }

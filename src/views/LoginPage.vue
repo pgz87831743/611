@@ -36,7 +36,6 @@ export default {
           .then(resp=>{
 
             if (resp.data.code!==0){
-
               this.$message({
                 message: resp.data.msg,
                 showClose: true,

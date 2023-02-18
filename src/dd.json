@@ -1,0 +1,807 @@
+{
+  "paper": {
+    "@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.paper.PaperVo",
+    "id": "4f63f174-0b40-4560-96c1-b207786584dd",
+    "title": "断点名称",
+    "description": "",
+    "score": 0,
+    "question_count": 3,
+    "sub_question_count": 3,
+    "paper_question_type": 1,
+    "extra": {},
+    "modules": null,
+    "parts": [
+      {
+        "id": null,
+        "title": "第1大题",
+        "description": null,
+        "question_count": 3,
+        "sub_question_count": 3,
+        "attachments": null,
+        "paper_questions": [
+          {
+            "id": "35e80d97-c681-4e7e-b86b-c0dfa01d2c04",
+            "scores": [
+              0
+            ],
+            "branch_rule": null,
+            "item_session_control": null,
+            "score_rule": null,
+            "answer_time": 0,
+            "container_id": "e2a5e1f7-1f77-4894-aa7f-9d49a3b6285c"
+          },
+          {
+            "id": "31d5ae68-48d0-45a3-951b-9dc39ef0745c",
+            "scores": [
+              0
+            ],
+            "branch_rule": null,
+            "item_session_control": null,
+            "score_rule": null,
+            "answer_time": 0,
+            "container_id": "e2a5e1f7-1f77-4894-aa7f-9d49a3b6285c"
+          },
+          {
+            "id": "b9f269f7-eba8-4980-9f55-b51158a523ba",
+            "scores": [
+              0
+            ],
+            "branch_rule": null,
+            "item_session_control": null,
+            "score_rule": null,
+            "answer_time": 0,
+            "container_id": "e2a5e1f7-1f77-4894-aa7f-9d49a3b6285c"
+          }
+        ],
+        "examples": null
+      }
+    ],
+    "container_id": null,
+    "content": null,
+    "latest_version": null
+  },
+  "question": [
+    {
+      "@class": "com.nd.elearning.sdk.resource.gateway.v5.bean.question.QuestionVo",
+      "original_type": 4,
+      "original_sub_type": "questions",
+      "container_id": "e2a5e1f7-1f77-4894-aa7f-9d49a3b6285c",
+      "id": "35e80d97-c681-4e7e-b86b-c0dfa01d2c04",
+      "type": 203,
+      "content": {
+        "identifier": "35e80d97-c681-4e7e-b86b-c0dfa01d2c04",
+        "feedbacks": [
+          {
+            "identifier": "showHint",
+            "sequence": "1",
+            "outcome_identifier": "FEEDBACK",
+            "show_hide": "show",
+            "content": ""
+          },
+          {
+            "identifier": "showAnswer",
+            "sequence": "1",
+            "outcome_identifier": "FEEDBACK",
+            "show_hide": "show",
+            "content": "<p>清嗓不利于保养嗓子，建议使用慢喝温水的方式代替清嗓。</p>\n"
+          }
+        ],
+        "sequnce_number": 1,
+        "description": "<p>清嗓是保养嗓子的好方法。</p>\n",
+        "title": "清嗓是保养嗓子的好方法。",
+        "res_type": "$RE0203",
+        "adaptive": false,
+        "timer": {
+          "timer_type": "sequence"
+        },
+        "time_dependent": false,
+        "responses": [
+          {
+            "identifier": "RESPONSE_1-1",
+            "sequence": "1-1",
+            "base_type": "identifier",
+            "cardinality": "single",
+            "corrects": [
+              "NO"
+            ]
+          }
+        ],
+        "location": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/questions/35e80d97-c681-4e7e-b86b-c0dfa01d2c04.pkg/item.json?v=1672808564456",
+        "items": [
+          {
+            "min_choices": 0,
+            "attachments": [],
+            "columns": 1,
+            "type": "judge",
+            "associable_hotspots": [],
+            "children": [],
+            "hide_answer_area": false,
+            "options": [],
+            "orientation": 0,
+            "multiple": false,
+            "raw": false,
+            "titles": [],
+            "rows": 1,
+            "response_identifier": "RESPONSE_1-1",
+            "max_choices": 1,
+            "gap_imgs": [],
+            "shuffle": false,
+            "choices": [
+              {
+                "identifier": "YES",
+                "correct": false,
+                "match_max": 1,
+                "group_id": "",
+                "fixed": false,
+                "text": "√"
+              },
+              {
+                "identifier": "NO",
+                "correct": false,
+                "match_max": 1,
+                "group_id": "",
+                "fixed": false,
+                "text": "×"
+              }
+            ],
+            "prompt": "<p>清嗓是保养嗓子的好方法。</p>\n",
+            "object": {
+              "data": "",
+              "width": "1000",
+              "type": "image/png",
+              "params": {
+                "originalImage": "",
+                "blankImage": ""
+              },
+              "height": "600"
+            }
+          }
+        ],
+        "container_id": "e2a5e1f7-1f77-4894-aa7f-9d49a3b6285c"
+      },
+      "source": {
+        "container_id": "e2a5e1f7-1f77-4894-aa7f-9d49a3b6285c",
+        "tags": [
+          "$M002000000",
+          "$M003000000",
+          "$RE0000",
+          "$M003002000",
+          "$RE0200",
+          "$RE0203"
+        ],
+        "status": "ONLINE",
+        "is_publish": false,
+        "id": "35e80d97-c681-4e7e-b86b-c0dfa01d2c04",
+        "global_title": {
+          "zh-CN": "清嗓是保养嗓子的好方法。"
+        },
+        "global_description": {
+          "zh-CN": "<p>清嗓是保养嗓子的好方法。</p>\n"
+        },
+        "global_keywords": {},
+        "global_label": {},
+        "custom_properties": {
+          "auto_fill_thumb": true,
+          "qb_case_no": "",
+          "qb_guider_intros": [
+            ""
+          ],
+          "qb_guider_names": [
+            ""
+          ],
+          "qb_knowledge_points": [
+            ""
+          ],
+          "qb_qu_num": 1,
+          "size": 1765,
+          "sys_packing_status": "pending",
+          "thumbnails": [
+            "cs_path:${ref-path}/edu_product/esp/resources/default_thumb/others.png"
+          ]
+        },
+        "resource_type_code": "questions",
+        "ti_items": [
+          {
+            "ti_md5": "19a0393053916d727a09d9a9e17c3710",
+            "ti_res_version": null,
+            "ti_format": "2d641585-d91b-4d65-8f5a-2a7fd8103ac7",
+            "ti_size": 1753,
+            "ti_storage": "cs_path:${ref-path}/edu_product/esp/questions/35e80d97-c681-4e7e-b86b-c0dfa01d2c04.pkg/item.json?v=1672808564456",
+            "ti_file_flag": "href",
+            "ti_is_source_file": true,
+            "custom_properties": null,
+            "ti_printable": false,
+            "lc_ti_format": "document/json"
+          },
+          {
+            "ti_md5": "fa95fa358171a5d064c823bcb6e22344",
+            "ti_res_version": null,
+            "ti_format": "2d641585-d91b-4d65-8f5a-2a7fd8103ac7",
+            "ti_size": 317,
+            "ti_storage": "cs_path:${ref-path}/edu_product/esp/questions/35e80d97-c681-4e7e-b86b-c0dfa01d2c04.pkg/main.xml?v=1672808565154",
+            "ti_file_flag": "nd_href",
+            "ti_is_source_file": true,
+            "custom_properties": null,
+            "ti_printable": false,
+            "lc_ti_format": "xml"
+          },
+          {
+            "ti_md5": "d1c65336eccd048845e4ed0e3bb7989f",
+            "ti_res_version": null,
+            "ti_format": "2d641585-d91b-4d65-8f5a-2a7fd8103ac7",
+            "ti_size": 1765,
+            "ti_storage": "cs_path:${ref-path}/edu_product/esp/questions/35e80d97-c681-4e7e-b86b-c0dfa01d2c04.pkg/item.json?v=1672808564456",
+            "ti_file_flag": "source",
+            "ti_is_source_file": true,
+            "custom_properties": null,
+            "ti_printable": false,
+            "lc_ti_format": "document/json"
+          }
+        ],
+        "creator": "452315580589",
+        "language": "zh-CN",
+        "busi_version": "v1.0",
+        "publisher": null,
+        "provider": null,
+        "provider_source": null,
+        "provider_mode": null,
+        "has_right": false,
+        "right_start_date": null,
+        "right_end_date": null,
+        "right": null,
+        "global_cr_description": {},
+        "author": null,
+        "create_time": "2023-01-04T11:48:42.420+0800",
+        "update_time": "2023-01-04T13:02:45.203+0800",
+        "resource_container_time": null,
+        "resource_container_cp": null,
+        "clear_water_mark": null
+      },
+      "paper_question_type": 1,
+      "sub_types": [
+        {
+          "response_id": "RESPONSE_1-1",
+          "type": 203,
+          "qt_info": {
+            "type": 203,
+            "name": "判断题",
+            "code": "JUDGMENT",
+            "cs_code": "judge",
+            "mark_mode": "esp-mark",
+            "player_mode": "qti",
+            "is_objective": true,
+            "custom_strategy": {
+              "show_score": false,
+              "show_answer_result": true
+            },
+            "ndr_type": "questions",
+            "composite_question": false
+          },
+          "objective": true
+        }
+      ],
+      "qt_info": {
+        "type": 203,
+        "name": "判断题",
+        "code": "JUDGMENT",
+        "cs_code": "judge",
+        "mark_mode": "esp-mark",
+        "player_mode": "qti",
+        "is_objective": true,
+        "custom_strategy": {
+          "show_score": false,
+          "show_answer_result": true
+        },
+        "ndr_type": "questions",
+        "composite_question": false
+      },
+      "latest_version": null
+    },
+    {
+      "@class": "com.nd.elearning.sdk.resource.gateway.v5.bean.question.QuestionVo",
+      "original_type": 4,
+      "original_sub_type": "questions",
+      "container_id": "e2a5e1f7-1f77-4894-aa7f-9d49a3b6285c",
+      "id": "31d5ae68-48d0-45a3-951b-9dc39ef0745c",
+      "type": 201,
+      "content": {
+        "identifier": "31d5ae68-48d0-45a3-951b-9dc39ef0745c",
+        "feedbacks": [
+          {
+            "identifier": "showHint",
+            "sequence": "1",
+            "outcome_identifier": "FEEDBACK",
+            "show_hide": "show",
+            "content": ""
+          },
+          {
+            "identifier": "showAnswer",
+            "sequence": "1",
+            "outcome_identifier": "FEEDBACK",
+            "show_hide": "show",
+            "content": ""
+          }
+        ],
+        "sequnce_number": 1,
+        "description": "<p>当说话时间长、嗓子不舒服时如何练习？</p>\n",
+        "title": "当说话时间长、嗓子不舒服时如何练习？",
+        "res_type": "$RE0201",
+        "adaptive": false,
+        "timer": {
+          "timer_type": "sequence"
+        },
+        "time_dependent": false,
+        "responses": [
+          {
+            "identifier": "RESPONSE_1-1",
+            "sequence": "1-1",
+            "base_type": "identifier",
+            "cardinality": "single",
+            "corrects": [
+              "C"
+            ]
+          }
+        ],
+        "location": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/questions/31d5ae68-48d0-45a3-951b-9dc39ef0745c.pkg/item.json?v=1672808556426",
+        "items": [
+          {
+            "min_choices": 0,
+            "attachments": [],
+            "columns": 1,
+            "type": "choice",
+            "associable_hotspots": [],
+            "children": [],
+            "hide_answer_area": false,
+            "options": [],
+            "orientation": 0,
+            "multiple": false,
+            "raw": false,
+            "titles": [],
+            "rows": 1,
+            "response_identifier": "RESPONSE_1-1",
+            "max_choices": 1,
+            "gap_imgs": [],
+            "choice_type": "character",
+            "shuffle": false,
+            "choices": [
+              {
+                "identifier": "A",
+                "correct": false,
+                "match_max": 1,
+                "group_id": "",
+                "fixed": false,
+                "text": "<p>朗读训练</p>\n"
+              },
+              {
+                "identifier": "B",
+                "correct": false,
+                "match_max": 1,
+                "group_id": "",
+                "fixed": false,
+                "text": "<p>跑步练习</p>\n"
+              },
+              {
+                "identifier": "C",
+                "correct": false,
+                "match_max": 1,
+                "group_id": "",
+                "fixed": false,
+                "text": "<p>局部按摩+打哈气叹气+发yao音练习&nbsp;</p>\n"
+              },
+              {
+                "identifier": "D",
+                "correct": false,
+                "match_max": 1,
+                "group_id": "",
+                "fixed": true,
+                "text": "<p>爆破音练习</p>\n"
+              }
+            ],
+            "prompt": "<p>当说话时间长、嗓子不舒服时如何练习？</p>\n",
+            "object": {
+              "data": "",
+              "width": "1000",
+              "type": "image/png",
+              "params": {
+                "originalImage": "",
+                "blankImage": ""
+              },
+              "height": "600"
+            }
+          }
+        ],
+        "container_id": "e2a5e1f7-1f77-4894-aa7f-9d49a3b6285c"
+      },
+      "source": {
+        "container_id": "e2a5e1f7-1f77-4894-aa7f-9d49a3b6285c",
+        "tags": [
+          "$M002000000",
+          "$M003000000",
+          "$RE0000",
+          "$M003002000",
+          "$RE0200",
+          "$RE0201"
+        ],
+        "status": "ONLINE",
+        "is_publish": false,
+        "id": "31d5ae68-48d0-45a3-951b-9dc39ef0745c",
+        "global_title": {
+          "zh-CN": "当说话时间长、嗓子不舒服时如何练习？"
+        },
+        "global_description": {
+          "zh-CN": "<p>当说话时间长、嗓子不舒服时如何练习？</p>\n"
+        },
+        "global_keywords": {},
+        "global_label": {},
+        "custom_properties": {
+          "auto_fill_thumb": true,
+          "qb_case_no": "",
+          "qb_guider_intros": [
+            ""
+          ],
+          "qb_guider_names": [
+            ""
+          ],
+          "qb_knowledge_points": [
+            ""
+          ],
+          "qb_qu_num": 2,
+          "size": 1993,
+          "sys_packing_status": "pending",
+          "thumbnails": [
+            "cs_path:${ref-path}/edu_product/esp/resources/default_thumb/others.png"
+          ]
+        },
+        "resource_type_code": "questions",
+        "ti_items": [
+          {
+            "ti_md5": "89c23a777537ccddbf955885ed52660a",
+            "ti_res_version": null,
+            "ti_format": "2d641585-d91b-4d65-8f5a-2a7fd8103ac7",
+            "ti_size": 1981,
+            "ti_storage": "cs_path:${ref-path}/edu_product/esp/questions/31d5ae68-48d0-45a3-951b-9dc39ef0745c.pkg/item.json?v=1672808556426",
+            "ti_file_flag": "href",
+            "ti_is_source_file": true,
+            "custom_properties": null,
+            "ti_printable": false,
+            "lc_ti_format": "document/json"
+          },
+          {
+            "ti_md5": "35eb3817bbfd0c8f4db3750d08a63b97",
+            "ti_res_version": null,
+            "ti_format": "2d641585-d91b-4d65-8f5a-2a7fd8103ac7",
+            "ti_size": 317,
+            "ti_storage": "cs_path:${ref-path}/edu_product/esp/questions/31d5ae68-48d0-45a3-951b-9dc39ef0745c.pkg/main.xml?v=1672808557056",
+            "ti_file_flag": "nd_href",
+            "ti_is_source_file": true,
+            "custom_properties": null,
+            "ti_printable": false,
+            "lc_ti_format": "xml"
+          },
+          {
+            "ti_md5": "57a50c2cd06ceb55055d6098ea440055",
+            "ti_res_version": null,
+            "ti_format": "2d641585-d91b-4d65-8f5a-2a7fd8103ac7",
+            "ti_size": 1993,
+            "ti_storage": "cs_path:${ref-path}/edu_product/esp/questions/31d5ae68-48d0-45a3-951b-9dc39ef0745c.pkg/item.json?v=1672808556426",
+            "ti_file_flag": "source",
+            "ti_is_source_file": true,
+            "custom_properties": null,
+            "ti_printable": false,
+            "lc_ti_format": "document/json"
+          }
+        ],
+        "creator": "452315580589",
+        "language": "zh-CN",
+        "busi_version": "v1.0",
+        "publisher": null,
+        "provider": null,
+        "provider_source": null,
+        "provider_mode": null,
+        "has_right": false,
+        "right_start_date": null,
+        "right_end_date": null,
+        "right": null,
+        "global_cr_description": {},
+        "author": null,
+        "create_time": "2023-01-04T11:49:18.385+0800",
+        "update_time": "2023-01-04T13:02:37.108+0800",
+        "resource_container_time": null,
+        "resource_container_cp": null,
+        "clear_water_mark": null
+      },
+      "paper_question_type": 1,
+      "sub_types": [
+        {
+          "response_id": "RESPONSE_1-1",
+          "type": 201,
+          "qt_info": {
+            "type": 201,
+            "name": "单选题",
+            "code": "SINGLE_CHOICE",
+            "cs_code": "choice",
+            "mark_mode": "esp-mark",
+            "player_mode": "qti",
+            "is_objective": true,
+            "custom_strategy": {
+              "show_score": false,
+              "show_answer_result": true
+            },
+            "ndr_type": "questions",
+            "composite_question": false
+          },
+          "objective": true
+        }
+      ],
+      "qt_info": {
+        "type": 201,
+        "name": "单选题",
+        "code": "SINGLE_CHOICE",
+        "cs_code": "choice",
+        "mark_mode": "esp-mark",
+        "player_mode": "qti",
+        "is_objective": true,
+        "custom_strategy": {
+          "show_score": false,
+          "show_answer_result": true
+        },
+        "ndr_type": "questions",
+        "composite_question": false
+      },
+      "latest_version": null
+    },
+    {
+      "@class": "com.nd.elearning.sdk.resource.gateway.v5.bean.question.QuestionVo",
+      "original_type": 4,
+      "original_sub_type": "questions",
+      "container_id": "e2a5e1f7-1f77-4894-aa7f-9d49a3b6285c",
+      "id": "b9f269f7-eba8-4980-9f55-b51158a523ba",
+      "type": 201,
+      "content": {
+        "identifier": "b9f269f7-eba8-4980-9f55-b51158a523ba",
+        "feedbacks": [
+          {
+            "identifier": "showHint",
+            "sequence": "1",
+            "outcome_identifier": "FEEDBACK",
+            "show_hide": "show",
+            "content": ""
+          },
+          {
+            "identifier": "showAnswer",
+            "sequence": "1",
+            "outcome_identifier": "FEEDBACK",
+            "show_hide": "show",
+            "content": ""
+          }
+        ],
+        "sequnce_number": 1,
+        "description": "<p>喝水有助于保养嗓子。那应该怎么喝水呢？</p>\n",
+        "title": "喝水有助于保养嗓子。那应该怎么喝水呢？",
+        "res_type": "$RE0201",
+        "adaptive": false,
+        "timer": {
+          "timer_type": "sequence"
+        },
+        "time_dependent": false,
+        "responses": [
+          {
+            "identifier": "RESPONSE_1-1",
+            "sequence": "1-1",
+            "base_type": "identifier",
+            "cardinality": "single",
+            "corrects": [
+              "C"
+            ]
+          }
+        ],
+        "location": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/questions/b9f269f7-eba8-4980-9f55-b51158a523ba.pkg/item.json?v=1672808548067",
+        "items": [
+          {
+            "min_choices": 0,
+            "attachments": [],
+            "columns": 1,
+            "type": "choice",
+            "associable_hotspots": [],
+            "children": [],
+            "hide_answer_area": false,
+            "options": [],
+            "orientation": 0,
+            "multiple": false,
+            "raw": false,
+            "titles": [],
+            "rows": 1,
+            "response_identifier": "RESPONSE_1-1",
+            "max_choices": 1,
+            "gap_imgs": [],
+            "choice_type": "character",
+            "shuffle": false,
+            "choices": [
+              {
+                "identifier": "A",
+                "correct": false,
+                "match_max": 1,
+                "group_id": "",
+                "fixed": false,
+                "text": "<p>快速大口喝水&nbsp;</p>\n"
+              },
+              {
+                "identifier": "B",
+                "correct": false,
+                "match_max": 1,
+                "group_id": "",
+                "fixed": false,
+                "text": "<p>多喝饮料</p>\n"
+              },
+              {
+                "identifier": "C",
+                "correct": false,
+                "match_max": 1,
+                "group_id": "",
+                "fixed": false,
+                "text": "<p>慢慢喝，在口腔里待一会再吞咽</p>\n"
+              },
+              {
+                "identifier": "D",
+                "correct": false,
+                "match_max": 1,
+                "group_id": "",
+                "fixed": true,
+                "text": "<p>少次多量</p>\n"
+              }
+            ],
+            "prompt": "<p>喝水有助于保养嗓子。那应该怎么喝水呢？</p>\n",
+            "object": {
+              "data": "",
+              "width": "1000",
+              "type": "image/png",
+              "params": {
+                "originalImage": "",
+                "blankImage": ""
+              },
+              "height": "600"
+            }
+          }
+        ],
+        "container_id": "e2a5e1f7-1f77-4894-aa7f-9d49a3b6285c"
+      },
+      "source": {
+        "container_id": "e2a5e1f7-1f77-4894-aa7f-9d49a3b6285c",
+        "tags": [
+          "$M002000000",
+          "$M003000000",
+          "$RE0000",
+          "$M003002000",
+          "$RE0200",
+          "$RE0201"
+        ],
+        "status": "ONLINE",
+        "is_publish": false,
+        "id": "b9f269f7-eba8-4980-9f55-b51158a523ba",
+        "global_title": {
+          "zh-CN": "喝水有助于保养嗓子。那应该怎么喝水呢？"
+        },
+        "global_description": {
+          "zh-CN": "<p>喝水有助于保养嗓子。那应该怎么喝水呢？</p>\n"
+        },
+        "global_keywords": {},
+        "global_label": {},
+        "custom_properties": {
+          "auto_fill_thumb": true,
+          "qb_case_no": "",
+          "qb_guider_intros": [
+            ""
+          ],
+          "qb_guider_names": [
+            ""
+          ],
+          "qb_knowledge_points": [
+            ""
+          ],
+          "qb_qu_num": 3,
+          "size": 1997,
+          "sys_packing_status": "pending",
+          "thumbnails": [
+            "cs_path:${ref-path}/edu_product/esp/resources/default_thumb/others.png"
+          ]
+        },
+        "resource_type_code": "questions",
+        "ti_items": [
+          {
+            "ti_md5": "4615bc63806823d35472f87ad4ff4cd6",
+            "ti_res_version": null,
+            "ti_format": "2d641585-d91b-4d65-8f5a-2a7fd8103ac7",
+            "ti_size": 1985,
+            "ti_storage": "cs_path:${ref-path}/edu_product/esp/questions/b9f269f7-eba8-4980-9f55-b51158a523ba.pkg/item.json?v=1672808548067",
+            "ti_file_flag": "href",
+            "ti_is_source_file": true,
+            "custom_properties": null,
+            "ti_printable": false,
+            "lc_ti_format": "document/json"
+          },
+          {
+            "ti_md5": "2ecb916c8f0a835ec7f93b2e70c31226",
+            "ti_res_version": null,
+            "ti_format": "2d641585-d91b-4d65-8f5a-2a7fd8103ac7",
+            "ti_size": 317,
+            "ti_storage": "cs_path:${ref-path}/edu_product/esp/questions/b9f269f7-eba8-4980-9f55-b51158a523ba.pkg/main.xml?v=1672808548752",
+            "ti_file_flag": "nd_href",
+            "ti_is_source_file": true,
+            "custom_properties": null,
+            "ti_printable": false,
+            "lc_ti_format": "xml"
+          },
+          {
+            "ti_md5": "7104dcbdd749ae66a59ea83529a8952e",
+            "ti_res_version": null,
+            "ti_format": "2d641585-d91b-4d65-8f5a-2a7fd8103ac7",
+            "ti_size": 1997,
+            "ti_storage": "cs_path:${ref-path}/edu_product/esp/questions/b9f269f7-eba8-4980-9f55-b51158a523ba.pkg/item.json?v=1672808548067",
+            "ti_file_flag": "source",
+            "ti_is_source_file": true,
+            "custom_properties": null,
+            "ti_printable": false,
+            "lc_ti_format": "document/json"
+          }
+        ],
+        "creator": "452315580589",
+        "language": "zh-CN",
+        "busi_version": "v1.0",
+        "publisher": null,
+        "provider": null,
+        "provider_source": null,
+        "provider_mode": null,
+        "has_right": false,
+        "right_start_date": null,
+        "right_end_date": null,
+        "right": null,
+        "global_cr_description": {},
+        "author": null,
+        "create_time": "2023-01-04T11:50:00.305+0800",
+        "update_time": "2023-01-04T13:02:28.802+0800",
+        "resource_container_time": null,
+        "resource_container_cp": null,
+        "clear_water_mark": null
+      },
+      "paper_question_type": 1,
+      "sub_types": [
+        {
+          "response_id": "RESPONSE_1-1",
+          "type": 201,
+          "qt_info": {
+            "type": 201,
+            "name": "单选题",
+            "code": "SINGLE_CHOICE",
+            "cs_code": "choice",
+            "mark_mode": "esp-mark",
+            "player_mode": "qti",
+            "is_objective": true,
+            "custom_strategy": {
+              "show_score": false,
+              "show_answer_result": true
+            },
+            "ndr_type": "questions",
+            "composite_question": false
+          },
+          "objective": true
+        }
+      ],
+      "qt_info": {
+        "type": 201,
+        "name": "单选题",
+        "code": "SINGLE_CHOICE",
+        "cs_code": "choice",
+        "mark_mode": "esp-mark",
+        "player_mode": "qti",
+        "is_objective": true,
+        "custom_strategy": {
+          "show_score": false,
+          "show_answer_result": true
+        },
+        "ndr_type": "questions",
+        "composite_question": false
+      },
+      "latest_version": null
+    }
+  ]
+}

@@ -10,9 +10,9 @@ import 'ant-design-vue/dist/antd.css';
 import VueRoute from 'vue-router';
 import Router from "@/router";
 // axios.defaults.baseURL = "http://101.43.179.120:5080/"
-// axios.defaults.baseURL = "http://localhost:5080/"
+axios.defaults.baseURL = "http://localhost:8081/"
 // axios.defaults.baseURL = "http://192.168.137.1:5080/"
-axios.defaults.baseURL = "http://47.115.200.30:9001/"
+// axios.defaults.baseURL = "http://47.115.200.30:9001/"
 Vue.config.productionTip = false
 //把axios挂载到vue上，并起一个叫$http的名字
 Vue.prototype.$http = axios
